@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center; 
   gap: 0;
   font-family: Raleway, sans-serif;
 }
@@ -40,7 +41,7 @@ body {
 
 .header_links-list {
   display: flex;
-  gap: 40px;
+  gap: 29px;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -66,14 +67,12 @@ body {
 
 .header_address {
   display: flex;
-  justify-self: end;
   flex-direction: column;
-  margin-right: 50px;
+  margin: 95px 50px 100px 184px;
   font-style: normal;
 }
 
 .address_link {
-  justify-self: end;
   list-style: none;
   font-weight: 400;
   font-size: 18px;
@@ -92,6 +91,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
 }
 
 .overlay {
@@ -104,8 +104,11 @@ body {
   color: white;
   flex-direction: column;
   text-transform: uppercase;
+  font-weight: bold;
   font-size: 100px;
-  letter-spacing: 0.3em;
+  letter-spacing: 30px;
+  width: 100%;
+
 }
 
 .aligned-text {
@@ -114,25 +117,30 @@ body {
 
 .aligned-text_center {
   margin: 20px 380.5px 20px 380.5px;
+  position: relative;
+  padding-left: 5px;
 }
 
 .aligned-text_right {
   margin: 0 50px 0 663px;
+  padding-left: 1px;
 }
 
 .cover_description {
   width: 1000px;
   align-items: center;
-  margin: 106px 50px 50px 50px;
+  margin: 96px 50px 50px 50px;
   justify-content: space-between;
   display: flex;
   flex-direction: row;
+  
 }
 
 .cover_description-text {
   font-weight: 400px;
   font-size: 22px;
   letter-spacing: 0em;
+  line-height: 28px;
   color: white;
   justify-content: space-between;
   text-transform: uppercase;
@@ -155,7 +163,7 @@ body {
 .lots {
   width: 1052px;
   height: 723px;
-  margin-top: 180px;
+  margin: 180px 24px 120px 24px;
 }
 
 .lots_title {
@@ -163,7 +171,9 @@ body {
   font-weight: 700;
   font-size: 40px;
   letter-spacing: 0em;
+  margin-left: 40px;
   text-transform: uppercase;
+  margin-bottom: 25px;
 }
 
 .lots_card-list {
@@ -176,6 +186,8 @@ body {
 .lots_card-list-item {
   width: 334px;
   height: 596px;
+  padding: 0;
+  margin: 0;
 }
 
 .card {
@@ -194,7 +206,9 @@ body {
   font-weight: 700px;
   font-style: bold;
   font-size: 22px;
-  line-height: 120%;
+  line-height: 1.2;
+  margin-top: 0;
+  word-spacing: 0;
   text-transform: uppercase;
   color: white;
   text-decoration: underline;
@@ -203,7 +217,7 @@ body {
 .card_text {
   font-weight: 400;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   color: white;
 }
 
@@ -295,7 +309,9 @@ body {
   flex-direction: column;
   justify-self: start;
   font-style: normal;
+  text-transform: none;
   width: 264.57px;
+  line-height: 24.3px;
   height: 98px;
   gap: 5px;
   margin: 0 0 82px 50px;
@@ -317,7 +333,7 @@ body {
   display: flex;
   flex-direction: column;
   list-style: none;
-  gap: 5px;
+  gap: 4px;
 }
 
 .footer_link {
