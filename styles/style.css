@@ -3,7 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   gap: 0;
   font-family: Raleway, sans-serif;
 }
@@ -108,7 +108,6 @@ body {
   font-size: 100px;
   letter-spacing: 30px;
   width: 100%;
-
 }
 
 .aligned-text {
@@ -133,11 +132,10 @@ body {
   justify-content: space-between;
   display: flex;
   flex-direction: row;
-  
 }
 
 .cover_description-text {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 22px;
   letter-spacing: 0em;
   line-height: 28px;
@@ -203,7 +201,7 @@ body {
 }
 
 .card_title {
-  font-weight: 700px;
+  font-weight: 700;
   font-style: bold;
   font-size: 22px;
   line-height: 1.2;
@@ -242,25 +240,22 @@ body {
   line-height: 100%;
   letter-spacing: 0em;
   padding-left: 40px;
-  padding-top: 30px;
+  margin: 33px auto 0;
   text-underline-offset: 4px;
 }
 
 .about {
-  margin: 120px 24px 180px 24px;
+  margin: 0px 24px 160px 24px;
   width: 1052px;
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
   white-space: normal;
+  align-items: start;
 }
 
 .about_content {
-  width: 693px;
-  height: 449px;
-  margin: 133px 0 13px 0;
-  display: flex;
-  flex-direction: column;
+  margin: 135px 0 13px 0;
 }
 
 .about_image {
@@ -282,26 +277,27 @@ body {
   letter-spacing: 0em;
   text-transform: uppercase;
   font-style: bold;
-  margin-bottom: 100px;
+  margin: 3px 402px 103px 0;
 }
 
 .about_text {
-  width: 693px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0em;
-  gap: 25px;
+  width: 693px;
 }
 
 .about_text-margin {
-  margin-top: 24px;
+  margin-right: 5px;
+  margin-bottom: 24px;
 }
 
 .footer {
   width: 1100px;
   display: grid;
   grid-template-columns: 468.6px 163.9px 467.5px;
+  margin-top: 10px;
 }
 
 .footer_address {
@@ -313,8 +309,8 @@ body {
   width: 264.57px;
   line-height: 24.3px;
   height: 98px;
-  gap: 5px;
-  margin: 0 0 82px 50px;
+  font-size: 18px;
+  margin: 1px 0 82px 50px;
 }
 
 .footer_menu {
