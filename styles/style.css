@@ -46,7 +46,7 @@ body {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0em;
-  list-style: circle;
+  list-style: none;
   margin: 0;
   padding: 135px 0 140px 50px;
 }
@@ -54,10 +54,16 @@ body {
 .header_links-list-item {
   font-weight: 400;
   font-size: 18px;
+  padding-left: 0;
+  margin-left: 0;
 }
 
-.header_links-list-item_no-bullit {
-  list-style: none;
+.header_links-list-item-second {
+  padding-left: 3.3px;
+}
+
+.header_links-list-item-third {
+  padding-left: 5px;
 }
 
 .list_underline {
@@ -65,33 +71,38 @@ body {
   text-underline-offset: 4px;
 }
 
-.header_address {
-  display: flex;
-  flex-direction: column;
-  margin: 95px 50px 100px 184px;
-  font-style: normal;
+.header-address {
+  justify-self: end;
+  margin-right: 86.5px;
+  padding-bottom: 4.5px;
 }
 
-.address_link {
+
+.address {
   list-style: none;
   font-weight: 400;
   font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
+  letter-spacing: 0em;
+}
+
+
+.adderss-link {
+  color: inherit;
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
-.address_link_home {
-  text-decoration: none;
-}
-
 .cover {
-  background-image: url(../images/cover.jpg);
   width: 1100px;
-  height: 757px;
+  min-height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
+  padding: 0;
+  margin: 0;
 }
 
 .overlay {
@@ -107,7 +118,6 @@ body {
   font-weight: bold;
   font-size: 100px;
   letter-spacing: 30px;
-  width: 100%;
 }
 
 .aligned-text {
@@ -115,14 +125,11 @@ body {
 }
 
 .aligned-text_center {
-  margin: 20px 380.5px 20px 380.5px;
-  position: relative;
-  padding-left: 5px;
+  margin: 18px 380.5px 15px 380.5px;
 }
 
 .aligned-text_right {
-  margin: 0 50px 0 663px;
-  padding-left: 1px;
+  margin: 0 50px 10px 663px;
 }
 
 .cover_description {
@@ -142,7 +149,7 @@ body {
   color: white;
   justify-content: space-between;
   text-transform: uppercase;
-  word-spacing: 0.9em;
+  word-spacing: 19px;
 }
 
 .cover_button {
@@ -171,7 +178,7 @@ body {
   letter-spacing: 0em;
   margin-left: 40px;
   text-transform: uppercase;
-  margin-bottom: 25px;
+  margin-bottom: 26.5px;
 }
 
 .lots_card-list {
@@ -205,7 +212,8 @@ body {
   font-style: bold;
   font-size: 22px;
   line-height: 1.2;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
   word-spacing: 0;
   text-transform: uppercase;
   color: white;
@@ -245,17 +253,16 @@ body {
 }
 
 .about {
-  margin: 0px 24px 160px 24px;
+  margin: 80px 24px 160px 24px;
   width: 1052px;
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
   white-space: normal;
-  align-items: start;
 }
 
 .about_content {
-  margin: 135px 0 13px 0;
+  margin: 138px 0 13px 0;
 }
 
 .about_image {
@@ -267,7 +274,7 @@ body {
   background-position: center;
   background-size: 148px 114px;
   border-radius: 50%;
-  margin: 35px auto 320px;
+  margin: 35px 72px 320px 47px;
 }
 
 .about_title {
@@ -285,7 +292,6 @@ body {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0em;
-  width: 693px;
 }
 
 .about_text-margin {
@@ -297,7 +303,7 @@ body {
   width: 1100px;
   display: grid;
   grid-template-columns: 468.6px 163.9px 467.5px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .footer_address {
@@ -306,11 +312,8 @@ body {
   justify-self: start;
   font-style: normal;
   text-transform: none;
-  width: 264.57px;
   line-height: 24.3px;
-  height: 98px;
-  font-size: 18px;
-  margin: 1px 0 82px 50px;
+  margin: 0 0 82px 50px;
 }
 
 .footer_menu {
