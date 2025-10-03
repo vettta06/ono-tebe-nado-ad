@@ -77,7 +77,6 @@ body {
   padding-bottom: 4.5px;
 }
 
-
 .address {
   list-style: none;
   font-weight: 400;
@@ -86,7 +85,6 @@ body {
   line-height: 24.3px;
   letter-spacing: 0em;
 }
-
 
 .adderss-link {
   color: inherit;
@@ -324,7 +322,6 @@ body {
   padding-top: 1px;
   padding-bottom: 115px;
   text-align: center;
-  letter-spacing: 0em;
   justify-self: center;
 }
 
